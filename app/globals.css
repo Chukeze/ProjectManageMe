@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+.tooltip {
+  position: absolute;
+  bottom: 100%; /* Position it above the button */
+  left: 50%; /* Start from the middle */
+  transform: translateX(-50%); /* Center it exactly */
+  background-color: black; /* Tooltip background */
+  color: white; /* Tooltip text color */
+  padding: 5px; /* Some padding */
+  border-radius: 4px; /* Rounded corners */
+  white-space: nowrap; /* No wrapping of text */
+  z-index: 10; /* Ensure it's on top of other elements */
+}
